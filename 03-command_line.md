@@ -21,7 +21,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > 
 * show current working directory path
-  cd
+  /cd
 * creating a directory
   mkdir
 * deleting a directory
