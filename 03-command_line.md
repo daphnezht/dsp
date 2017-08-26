@@ -65,9 +65,12 @@ Response:
 `ls -l`:  displays permissions, links, owner, group, size, time, name; 
 
 `ls -lh`:  displays permissions, links, owner, group, size, time, name; also displays file sizes using more human-friendly units. 
+
 `ls -lah`:  Lists all entries including those starting with periods (.);displays permissions, links, owner, group, size, time, name; also displays file sizes using more human-friendly units. 
+
 `ls -t`: sorts entries by time. By default, this option sorts the output by the modification times of files. 
-`ls -Glp`: 
+
+`ls -Glp`: displays permissions, links, owner, group, size, time, name; puts / after directory names; displays only the group ID numbers 
 
 ---
 
@@ -75,7 +78,15 @@ Response:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > -a	Displays all files.
+
+-d	Displays only directories.
+
+-l	Displays the long format listing.
+
+-t	Displays newest files first. (based on timestamp)
+
+-R	Displays subdirectories as well.
 
 ---
 
@@ -83,7 +94,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs is a command on Unix and most Unix-like operating systems used to build and execute command lines from standard input. xargs breaks the list of arguments into sublists small enough to be acceptable.
+
+Example:
+
+find /path -type f -print | xargs rm
+
+In the above example, the find utility feeds the input of xargs with a long list of file names. xargs then splits this list into sublists and calls rm once for every sublist.
 
  
 
