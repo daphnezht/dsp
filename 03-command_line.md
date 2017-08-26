@@ -57,9 +57,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> >`ls` : list all files and directories.
+Response:
+`ls` : list all files and directories.
+
 `ls -a`: lists all entries including those starting with periods (.), but excluding any . or .. entries.  
+
 `ls -l`:  displays permissions, links, owner, group, size, time, name; 
+
 `ls -lh`:  
 `ls -lah`:  
 `ls -t`: 
