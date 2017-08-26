@@ -64,9 +64,9 @@ Response:
 
 `ls -l`:  displays permissions, links, owner, group, size, time, name; 
 
-`ls -lh`:  
-`ls -lah`:  
-`ls -t`: 
+`ls -lh`:  displays permissions, links, owner, group, size, time, name; also displays file sizes using more human-friendly units. 
+`ls -lah`:  Lists all entries including those starting with periods (.);displays permissions, links, owner, group, size, time, name; also displays file sizes using more human-friendly units. 
+`ls -t`: sorts entries by time. By default, this option sorts the output by the modification times of files. 
 `ls -Glp`: 
 
 ---
